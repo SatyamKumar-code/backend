@@ -1,28 +1,24 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "a Backend",
-  "main": "index.js",
-  "type": "module",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon server.js"
   },
-  "keywords": [
-    "javascrip",
-    "backend",
-    "satyam"
-  ],
-  "author": "satyam kumar",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9",
-    "prettier": "^3.5.3"
-  },
   "dependencies": {
-    "cookie-parser": "^1.4.7",
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.12.1"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
